@@ -1,12 +1,34 @@
-// This file is automatically compiled by Webpack, along with any other files
-// present in this directory. You're encouraged to place your actual application logic in
-// a relevant structure within app/javascript and only use these pack files to reference
-// that code so it'll be compiled.
+import "core-js";
+import 'jquery';
+import "regenerator-runtime/runtime";
+import 'bootstrap';
+import '../stylesheets/style';
 
-require("@rails/ujs").start()
-require("turbolinks").start()
-require("@rails/activestorage").start()
-require("channels")
+//= require rails-ujs
+//= require activestorage
+//= require_tree .
+
+// import Rails from 'rails-ujs';
+// Rails.start();
+//= require jquery
+//= require jquery_ujs
+//= require bootstrap
+
+$(document).ready(function () {
+
+  $('.first-button').on('click', function () {
+
+    $('.animated-icon1').toggleClass('open');
+  });
+  $('.second-button').on('click', function () {
+
+    $('.animated-icon2').toggleClass('open');
+  });
+  $('.third-button').on('click', function () {
+
+    $('.animated-icon3').toggleClass('open');
+  });
+});
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference

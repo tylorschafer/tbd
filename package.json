@@ -1,11 +1,29 @@
 {
   "name": "ticket_pastor",
   "private": true,
+  "setupFiles": [
+    "<rootDir>/node_modules/core-js"
+  ],
   "dependencies": {
-    "@rails/ujs": "^6.0.0-alpha",
-    "turbolinks": "^5.2.0",
+    "@rails/actioncable": "^6.0.0-alpha",
     "@rails/activestorage": "^6.0.0-alpha",
-    "@rails/actioncable": "^6.0.0-alpha"
+    "@rails/ujs": "^6.0.0-alpha",
+    "@rails/webpacker": "^4.0.7",
+    "bootstrap": "^4.3.1",
+    "core-js": "^3.3.4",
+    "devise": "^1.0.9",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "jquery": "^1.7.4",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.0",
+    "rails-erb-loader": "^5.5.2",
+    "turbolinks": "^5.2.0",
+    "webpack": "^4.41.2",
+    "webpacker": "^4.6.0"
   },
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^3.9.0"
+  }
 }
