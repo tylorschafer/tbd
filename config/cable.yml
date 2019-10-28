@@ -8,5 +8,5 @@ test:
 
 production:
   adapter: redis
-  url: redis://h:pde655564fe0326f9545b0d5286e4d3bfcbd3d702fc32643513aaa4b6f54d5be2@ec2-34-194-128-174.compute-1.amazonaws.com:15259
+  url: redis://redistogo:29f0a9a8382b45b2787b814ab0080058@pearlfish.redistogo.com:10139/
   channel_prefix: ticket-talk_production
