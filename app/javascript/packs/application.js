@@ -30,6 +30,11 @@ $(document).ready(function () {
   });
 });
 
+$(function() {
+	$('#new_room_message').on('ajax:success', function(a, b,c ) {
+	  $(this).find('input[type="text"]').val('');
+	});
+});
 
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
